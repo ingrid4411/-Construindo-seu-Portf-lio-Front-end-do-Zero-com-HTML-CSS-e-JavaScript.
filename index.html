@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfólio — Ingrid Tainara</title>
+    <meta name="description"
+        content="Portfólio front-end de Ingrid Tainara - Desenvolvimento de sites responsivos e lojas virtuais" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">Ingrid Tainara</a>
+            <button class="nav-toggle" aria-expanded="false" aria-label="Abrir menu">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="site-nav" id="main-nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="https://github.com/ingrid4411" target="_blank" class="social-link">
+                            <svg height="20" width="20" viewBox="0 0 16 16" class="github-icon">
+                                <path fill="currentColor"
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            GitHub
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Olá, eu sou <span>Ingrid Tainara</span></h1>
+                    <p>Desenvolvedora Front-end especializada em criar lojas virtuais e sites responsivos com HTML, CSS
+                        e JavaScript.
+                        Foco em experiências de compra intuitivas e designs modernos.</p>
+                    <p class="cta">
+                        <a href="#projects" class="btn">Ver projetos</a>
+                        <a href="#contact" class="btn btn-ghost">Entrar em contato</a>
+                    </p>
+                </div>
+                <div class="hero-illustration">
+                    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=600&auto=format"
+                        alt="Área de trabalho com notebook mostrando código" />
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Sobre</h2>
+                <p>Desenvolvedora front-end apaixonada por criar experiências digitais únicas. Especializada em
+                    desenvolvimento
+                    de lojas virtuais e sites responsivos, combino HTML, CSS e JavaScript para construir interfaces
+                    modernas e
+                    funcionais. Meu foco está em criar layouts que convertem visitantes em clientes, com atenção
+                    especial à
+                    usabilidade e performance.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="https://images.unsplash.com/photo-1581318694548-0fb6e47fe59b?w=600&auto=format"
+                            alt="Projeto Loja Virtual Moda" />
+                        <h3>Fashion Store</h3>
+                        <p>Loja virtual responsiva de moda com carrinho de compras dinâmico e filtros de categorias.</p>
+                        <p class="card-actions"><button class="btn btn-primary" data-project="1">Ver mais</button></p>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&auto=format"
+                            alt="Projeto Galeria de Fotos" />
+                        <h3>PhotoGrid Pro</h3>
+                        <p>Galeria de fotos com layout grid responsivo, lightbox e efeitos de hover personalizados.</p>
+                        <p class="card-actions"><button class="btn btn-primary" data-project="2">Ver mais</button></p>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format"
+                            alt="Projeto Dashboard" />
+                        <h3>Dashboard Analytics</h3>
+                        <p>Dashboard interativo com gráficos em JavaScript, tema escuro e dados em tempo real.</p>
+                        <p class="card-actions"><button class="btn btn-primary" data-project="3">Ver mais</button></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3 / Flexbox / Grid</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsividade</li>
+                    <li>Acessibilidade básica</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Vamos trabalhar juntos? Entre em contato:</p>
+                <div class="contact-info">
+                    <p>📱 (21) 96543-1788</p>
+                    <p>📧 ingridtainarasm@gmail.com</p>
+                    <p>
+                        <a href="https://github.com/ingrid4411" target="_blank" class="social-link">
+                            <svg height="20" width="20" viewBox="0 0 16 16" class="github-icon">
+                                <path fill="currentColor"
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            github.com/ingrid4411
+                        </a>
+                    </p>
+                </div>
+                <form id="contact-form">
+                    <label>
+                        Nome
+                        <input type="text" name="name" required />
+                    </label>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" required />
+                    </label>
+                    <label>
+                        Mensagem
+                        <textarea name="message" rows="4" required></textarea>
+                    </label>
+                    <p><button type="submit" class="btn">Enviar</button></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Ingrid Tainara — Feito com ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Modal básico de projeto -->
+    <div id="project-modal" class="modal" aria-hidden="true">
+        <div class="modal-panel">
+            <button class="modal-close" aria-label="Fechar">×</button>
+            <div class="modal-body">
+                <h3 id="modal-title">Título do projeto</h3>
+                <p id="modal-desc">Descrição detalhada do projeto.</p>
+                <p id="modal-tech">Tecnologias: HTML, CSS, JS</p>
+                <p class="modal-actions">
+                    <a id="modal-repo" href="#" target="_blank" class="social-link">
+                        <svg height="20" width="20" viewBox="0 0 16 16" class="github-icon">
+                            <path fill="currentColor"
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                        Ver no GitHub
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
